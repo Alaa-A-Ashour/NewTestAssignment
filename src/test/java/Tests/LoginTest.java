@@ -14,7 +14,7 @@ public class LoginTest extends BaseTests {
 
     @BeforeClass
     public void loadTestData() {
-        testData = DataDriven.jsonReader("testData/testData.json");
+        testData = DataDriven.jsonReader("testData.json");
     }
 
     @Test(priority = 1)
